@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-package_name = "mongodb_connector"
+package_name = "mongocb_python"
 
 list_of_files = [
     "github/workflows/ci.yaml",
