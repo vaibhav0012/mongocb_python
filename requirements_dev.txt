@@ -6,7 +6,7 @@ numpy
 ensure
 pytest
 
--e .
+#-e .
 ###Dev Requirements:
 
 pytest==7.1.3
