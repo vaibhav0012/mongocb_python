@@ -1,5 +1,7 @@
 from setuptools import find_packages,setup
 from typing import List
+from pathlib import Path
+import os
 
 Hyphen_e_dot = '-e .'
 def get_requirements(file_path:str)->List[str]:
@@ -40,5 +42,5 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
-    install_requires=get_requirements("./requirements.txt"),
+    install_requires=get_requirements("./requirements_dev.txt"),
 )
